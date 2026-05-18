@@ -49,8 +49,8 @@ export default function Projects() {
       description:
         "Modern portfolio website highlighting my projects, skills, and web development work.",
       tech: ["Next.js", "Tailwind", "TypeScript"],
-      link: "#",
-      github: "#",
+      link: "https://portfolio-2-o-beta.vercel.app/",
+      github: "https://github.com/surajgupta1122/portfolio_2.O",
       image: "/Project_icon/Portfolio 2.O.png",
     },
   ];
