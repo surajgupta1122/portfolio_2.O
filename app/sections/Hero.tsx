@@ -44,7 +44,7 @@ export default function Hero() {
             <a 
             href="#contact"
             className="border border-zinc-300 dark:border-zinc-700 hover:border-zinc-500 dark:hover:border-zinc-500 transition px-6 py-3 rounded-2xl flex items-center gap-2 font-medium text-black dark:text-white">
-              Contact
+              Hire Me
               <ArrowRight size={18} />
             </a>
           </div>
