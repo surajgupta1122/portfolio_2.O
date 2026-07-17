@@ -3,7 +3,7 @@
 My personal developer portfolio, rebuilt with Next.js, TypeScript, and Tailwind CSS. Showcases my projects, skills, and a working contact form.
 
 ## 🔗 Live Demo
-🔗 https://portfolio-2-o-beta.vercel.app
+🔗 (https://portfolio-2-o-beta.vercel.app/)
 
 ---
 
