@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Suraj Gupta — Portfolio 2.0
 
-## Getting Started
+My personal developer portfolio, rebuilt with Next.js, TypeScript, and Tailwind CSS. Showcases my projects, skills, and a working contact form.
 
-First, run the development server:
+## 🔗 Live Demo
+🔗 (https://portfolio-2-o-beta.vercel.app/)
 
+---
+
+## ✨ Features
+
+- Responsive, modern UI with dark mode support
+- Animated hero section
+- Featured projects section with pagination and live GitHub links
+- Skills and education overview
+- Working contact form (sends real emails via Nodemailer)
+- Downloadable resume (PDF)
+- Smooth scroll navigation
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React, React Icons
+- **Email:** Nodemailer (Gmail SMTP)
+- **Deployment:** Vercel
+
+---
+
+## 📁 Project Structure
+
+portfolio_2.O
+│
+├── app/
+│   ├── api/
+│   │   └── contact/route.ts   # Contact form API endpoint
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   ├── sections/
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Education.tsx
+│   │   ├── Projects.tsx
+│   │   └── Contact.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── public/
+│   ├── Project_icon/
+│   └── Suraj_Resume.pdf
+│
+└── package.json
+
+---
+
+## 📦 Installation
+
+### Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/surajgupta1122/portfolio_2.O.git
+cd portfolio_2.O
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install & Run
+```bash
+npm install
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to view it locally.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙ Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file in the project root:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+EMAIL_USER=your_gmail_address
+EMAIL_PASS=your_gmail_app_password
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Used by the contact form to send emails via Nodemailer.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Featured Projects Linked Here
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **CCTV Management System** — Full-stack MERN inventory/e-commerce app
+- **Jobion** — Job search platform (group project, Next.js + MySQL)
+- **SkillForge** — Online learning platform
+- **Portfolio (v1)** — Earlier portfolio version
+
+---
+
+## 🚧 Future Improvements
+
+- Project filtering by tech stack
+- Analytics integration
+- Light/dark theme toggle persistence
+- Testimonials section
+
+---
+
+## 👨‍💻 Author
+
+**Suraj Gupta**
+
+GitHub: [github.com/surajgupta1122](https://github.com/surajgupta1122)
+
+LinkedIn: [linkedin.com/in/suraj-gupta-11j45](https://linkedin.com/in/suraj-gupta-11j45)
+
+Email: sg8121094@gmail.com
+
+---
+
+## ⭐ If you like this project
+Please consider giving it a ⭐ on GitHub.
